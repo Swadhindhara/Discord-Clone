@@ -28,8 +28,9 @@ body {
     margin-left: 25%;
 }
 
-.list {
+.list span {
     list-style-type: none;
+    text-decoration: none;
     color: #ffffff;
 }
 
@@ -306,10 +307,60 @@ ul{
     width: 50px;
     height: 50px;
 }
-
-
-
-
+span:hover{
+    color: aliceblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.button:hover{
+    cursor: pointer;
+    color: #3752ed;
+    -webkit-box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
+    -moz-box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
+    box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
+}
+.logo img:hover{
+    cursor: pointer;
+}
+.windows:hover{
+    cursor: pointer;
+    color: #3752ed;
+    -webkit-box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
+    -moz-box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
+    box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
+}
+.browser:hover{
+    cursor: pointer;
+    background-color: #575656;
+    -webkit-box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
+    -moz-box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
+    box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
+}
+.download:hover{
+    cursor: pointer;
+}
+.down_load:hover{
+    cursor: pointer;
+    -webkit-box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
+    -moz-box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
+    box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
+}
+svg:hover{
+    cursor: pointer;
+}
+.app_store:hover{
+    cursor: pointer;
+    color: #3752ed;
+    -webkit-box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
+    -moz-box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
+    box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
+}
+.section_button_small:hover{
+    cursor: pointer;
+    -webkit-box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
+    -moz-box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
+    box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
+}
 
 
 
@@ -548,7 +599,12 @@ ul{
         font-family: 'Work Sans', sans-serif;
         color: #ffffff;
         background-color: #5468dd;
-
+    }
+    .section_button_small button:hover{
+        cursor: pointer;
+        -webkit-box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
+        -moz-box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
+        box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
     }
     .section_button_small{
         padding-top: 5%;
