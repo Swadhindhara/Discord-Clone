@@ -602,9 +602,6 @@ svg:hover{
     }
     .section_button_small button:hover{
         cursor: pointer;
-        -webkit-box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
-        -moz-box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
-        box-shadow: -3px 2px 75px 3px rgba(188,185,199,1);
     }
     .section_button_small{
         padding-top: 5%;
