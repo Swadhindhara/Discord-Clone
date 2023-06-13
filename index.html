@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discord |Your Place to Talk and H</title>
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
     <link rel="stylesheet" href="style.css">
@@ -49,12 +51,12 @@
         </div>
     </header>
     <!-- Main Section -->
-    <section class="mid_section">
-        <div class="main">
+    <section class="mid_section" data-aos="fade-up">
+        <div class="main" ">
             <div class="left_img">
                 <img src="./Assets/left.svg" alt="">
             </div>
-            <div class="mid_conent">
+            <div class="mid_conent" >
                 <h1 class="heading">IMAGINE A PLACE...</h1>
                 <p class="sub_heading">..where you can belong to a
                     school club, a gaming group, or a worldwide art
@@ -73,7 +75,7 @@
     </section>
 
     <!-- Section 2(Create an Invite.....) -->
-    <section class="study_group">
+    <section class="study_group" data-aos="fade-up">
         <div class="left_icon2">
             <img src="./Assets/section-2_icon.svg" alt="">
         </div>
@@ -85,7 +87,7 @@
     </section>
 
     <!-- Section 3(where hanging) -->
-    <section class="just_chillin">
+    <section class="just_chillin" data-aos="fade-up">
         <div class="text_3">
             <h1> Where hanging out is easy</h1>
             <p>Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and
@@ -97,7 +99,7 @@
     </section>
 
     <!-- Section 4(From few to a..) -->
-    <section class="coach">
+    <section class="coach" data-aos="fade-up">
         <div class="left_icon4">
             <img src="./Assets/section-4_icon.svg" alt="">
         </div>
@@ -109,7 +111,7 @@
     </section>
 
     <!-- Section 5 (Reliable tech for staying close) -->
-    <section class="reliable_tech">
+    <section class="reliable_tech" data-aos="fade-up">
         <div class="text_5">
             <h2>RELIABLE TECH FOR STAYING CLOSE</h2>
             <p>Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends
@@ -136,7 +138,7 @@
 
     <!-- Footer Section -->
     <section class="footer_back">
-        <div class="footer">
+        <div class="footer" data-aos="fade-up">
 
             <div class="social_icons">
                 <svg xmlns="http://www.w3.org/2000/svg" height="1em"
@@ -249,6 +251,13 @@
             <button class="download">Download</button>
         </div>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1000,
+      });
+    </script>
 </body>
 
 </html>
